@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #548587;
+    text-align: center;
+}
+.container
+{
+    
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game
+{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;/* Makes the container use flexbox layout, so items inside can be easily arranged*/
+    flex-wrap: wrap;/* if all are not fit in one line ,it can move to next line*/
+    justify-content: center;/*Centers the items horizontally in the container.*/
+    align-items: center;/*center the items verticaly*/
+    gap: 1.5vmin;/*space between the items accoding to the screen size*/
+}
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    background-color: rgb(247, 245, 247);
+    color: blue;
+
+}
+#reset
+{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#new
+{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#msg
+{
+    font-size: 8vmin;
+    color: aliceblue;
+}
+#h1
+{
+    font-size: 10vmin;
+}
+.hide
+{
+    display: none;
+}
